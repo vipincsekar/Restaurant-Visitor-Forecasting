@@ -2,7 +2,7 @@ import pandas as pd
 import xlrd
 from sklearn import tree
 #reading excel file
-pdf=pd.read_excel("C:\\Users\\Vipin\\Documents\\Machine Learning Project\\Restaurant-Data\\restaurant-data-with-consumer-ratings\\compare.xlsx")
+pdf=pd.read_excel("C:\\Users\\Vipin\\Documents\\Machine Learning Project\\Restaurant-Data\\restaurant-data-with-consumer-ratings\\data.xlsx")
 #print column names
 pdf.columns
 userID=pdf.userID
